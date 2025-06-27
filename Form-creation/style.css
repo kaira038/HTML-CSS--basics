@@ -1,0 +1,33 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(16, 58, 136);
+}
+.Header-update{
+    background-color: rgb(134, 216, 255);
+    color:black;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+form label{
+    font-weight: bold;
+}
+#btn{
+    color:rgb(238, 235, 235);
+    padding: 4px 16px;
+    margin-top: 30px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: rgb(43, 162, 16);
+    transition: 0.3s;
+    font-size: larger;
+}

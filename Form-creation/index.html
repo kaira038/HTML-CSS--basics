@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Images/html-css-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1 class="Header-update">Registration Form</h1>
+    <!--  1. Registration Form-->
+    <!-- NOTE:-
+              1. The name attribute is essential for 
+               grouping related inputs, such as radio buttons  
+
+              2. action attribute defines the action to be performed when the form is submitted.
+
+
+    -->
+
+
+
+
+    <form action="">
+        <label for="fname">Firstname:</label>
+        <input type="text" id="fname" name="fname" maxlength="20" required><br><br>
+        <label for="lname">Lastname:</label>
+        <input type="text" id="lname" name="lname" maxlength="20"><br><br>
+        <label for="age">Age:</label>
+        <input type="Number" id="age" name="age" value="00" ><br><br>
+        <label for="ph-no">Contact no:</label>
+        <input type="text" id="ph-no" placeholder="10-Digit "><br><br>
+        <label for="EG-no">Emergency no:</label>
+        <input type="text" id="EG-no"><br><br>
+        <label for="">Skill set do you have:- </label><br><br>
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="HTML">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css">
+        <label for="js">Javascript</label>
+        <input type="checkbox" id="js">
+        <label for="R-js">React Js</label>
+        <input type="checkbox" id="R-js"><br>
+        <label for="N-js">Node JS</label>
+        <input type="checkbox" id="N-js">
+        <label for="DB">Mongo DB</label>
+        <input type="checkbox" id="DB">
+        <label for="E-js">Express JS</label>
+        <input type="checkbox" id="E-js">
+        <label for="boot">Bootstrap</label>
+        <input type="checkbox" id="boot">
+        <label for="aws">AWS</label>
+        <input type="checkbox" id="aws"><br><br>
+        <label for="psword">Password:</label>
+        <input type="password" id="psword" required><br><br>
+        <label for="choosy">Locaction that you are looking for:-</label>
+        <input type="radio" id="chennai" name="loaction" checked>
+        <label for="chennai">Chennai</label>
+        <input type="radio" id="bangalore" name="loaction" >
+        <label for="bangalore">Bangalore</label>
+        <input type="radio" id="hydrabad" name="loaction">
+        <label for="hydrabad">Hydrabad</label><br><br>
+        <label for="file">Upload certification: </label>
+        <input type="file" id="file">
+        
+        <br><br>
+
+
+
+        <input type="button" value="Submit" id="btn">
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
